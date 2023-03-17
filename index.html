@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Generador de contraseñas aleatorias</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Generador de contraseñas aleatorias</h1>
+    </header>
+    <div>
+      <label>Contraseña generada:</label>
+      <input type="text" id="password" readonly>
+      <button id="copyBtn" onclick="copyPassword()">Copiar</button>
+    </div>
+    <div>
+      <button onclick="generatePassword()">Generar contraseña aleatoria</button>
+      <button onclick="generateDictionaryPassword()">Generar contraseña con diccionario</button>
+    </div>
+    <script src="password-generator.js"></script>
+  </body>
+</html>
